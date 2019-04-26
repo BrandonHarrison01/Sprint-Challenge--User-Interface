@@ -62,16 +62,29 @@ header {
     display: flex;
     margin: 20px 0;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 header nav {
-    width: 80%;
+    width: 620px;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    margin: 0 6%;
+    padding: 20px 35px 8px 35px;
+    border-radius: 3px;
+}
+
+@keyframes color-fade {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+header nav a:hover {
+    color: white;
+    animation-name: color-fade;
+    animation-duration: 1s;
 }
 
 .top-image {
@@ -197,6 +210,13 @@ footer nav {
     font-size: 14px;
 }
 
+footer nav a:hover {
+    background: white;
+    color: black;
+    width: 90px;
+    border-radius: 5px;
+}
+
 footer nav a {
     color: white;
     text-decoration: none;
@@ -235,6 +255,11 @@ article {
     border-radius: 8px;
     padding: 10px 25px;
     margin-top: 20px;
+}
+
+.learn-cards div button:hover {
+    background: black;
+    color: white;
 }
 
 .work-together {
