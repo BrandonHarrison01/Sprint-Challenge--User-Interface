@@ -54,6 +54,28 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin: 20px 0;
+    align-items: flex-end;
+}
+
+header nav {
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 6%;
+}
+
+.top-image {
+    margin: 20px 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,11 +86,6 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
 
 .top-content {
@@ -110,6 +127,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes :nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes :nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes :nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes :nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes :nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes :nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes :nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes :nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes :nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes :nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
